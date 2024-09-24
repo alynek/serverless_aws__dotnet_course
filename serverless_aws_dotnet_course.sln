@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80D41F13-8220-46E0-A43E-B6DD7E578F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serverless_aws_dotnet_course", "src\serverless_aws_dotnet_course\serverless_aws_dotnet_course.csproj", "{35A6696A-FECC-42E2-A091-DAF98512F38A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35A6696A-FECC-42E2-A091-DAF98512F38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A6696A-FECC-42E2-A091-DAF98512F38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A6696A-FECC-42E2-A091-DAF98512F38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A6696A-FECC-42E2-A091-DAF98512F38A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35A6696A-FECC-42E2-A091-DAF98512F38A} = {80D41F13-8220-46E0-A43E-B6DD7E578F5F}
 	EndGlobalSection
 EndGlobal
